@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TestUsers.Data.Models/1.0.0": {
+        "dependencies": {
+          "TestUsers.Data.Enums": "1.0.0"
+        },
+        "runtime": {
+          "TestUsers.Data.Models.dll": {}
+        }
+      },
+      "TestUsers.Data.Enums/1.0.0": {
+        "runtime": {
+          "TestUsers.Data.Enums.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestUsers.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestUsers.Data.Enums/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

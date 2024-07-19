@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\TestUsers.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Enums\\TestUsers.Data.Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Enums\\TestUsers.Data.Enums.csproj",
+        "projectName": "TestUsers.Data.Enums",
+        "projectPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Enums\\TestUsers.Data.Enums.csproj",
+        "packagesPath": "C:\\Users\\siglov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Enums\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\siglov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Models\\TestUsers.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Models\\TestUsers.Data.Models.csproj",
+        "projectName": "TestUsers.Data.Models",
+        "projectPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Models\\TestUsers.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\siglov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\siglov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Enums\\TestUsers.Data.Enums.csproj": {
+                "projectPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Enums\\TestUsers.Data.Enums.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data\\TestUsers.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data\\TestUsers.Data.csproj",
+        "projectName": "TestUsers.Data",
+        "projectPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data\\TestUsers.Data.csproj",
+        "packagesPath": "C:\\Users\\siglov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\siglov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Enums\\TestUsers.Data.Enums.csproj": {
+                "projectPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Enums\\TestUsers.Data.Enums.csproj"
+              },
+              "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Models\\TestUsers.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data.Models\\TestUsers.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\TestUsers.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\TestUsers.Services.csproj",
+        "projectName": "TestUsers.Services",
+        "projectPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\TestUsers.Services.csproj",
+        "packagesPath": "C:\\Users\\siglov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\siglov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data\\TestUsers.Data.csproj": {
+                "projectPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Data\\TestUsers.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
