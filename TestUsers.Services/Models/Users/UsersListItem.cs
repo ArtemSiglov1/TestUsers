@@ -8,22 +8,22 @@ using TestUsers.Data.Enums;
 namespace TestUsers.Services.Models.Users
 {
     /// <summary>
-    /// 
+    /// лист пользователей
     /// </summary>
     public class UsersListItem
     {
         /// <summary>
-        /// 
+        /// конструктор по умолчанию
         /// </summary>
         public UsersListItem() { }
         /// <summary>
-        /// 
+        /// с параметрами
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="email"></param>
-        /// <param name="fullName"></param>
-        /// <param name="dateRegister"></param>
-        /// <param name="status"></param>
+        /// <param name="id">идентиф</param>
+        /// <param name="email">имейл</param>
+        /// <param name="fullName">полное имя</param>
+        /// <param name="dateRegister">дата регистрации</param>
+        /// <param name="status">статус</param>
         public UsersListItem(Guid id, string email, string fullName, DateTime dateRegister, EnumUserStatus status)
         {
             Id = id;

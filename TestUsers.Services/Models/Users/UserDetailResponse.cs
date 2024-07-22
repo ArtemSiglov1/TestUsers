@@ -8,22 +8,22 @@ using TestUsers.Data.Enums;
 namespace TestUsers.Services.Models.Users
 {
     /// <summary>
-    /// 
+    /// класс для детального получения данных о пользователе
     /// </summary>
     public class UserDetailResponse
     {
         /// <summary>
-        /// 
+        /// конструктор по умолчанию 
         /// </summary>
             public UserDetailResponse() { }
         /// <summary>
-        /// 
+        /// с параметрами
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="email"></param>
-        /// <param name="fullName"></param>
-        /// <param name="dateRegister"></param>
-        /// <param name="status"></param>
+        /// <param name="id">идентификатор</param>
+        /// <param name="email">имэйл</param>
+        /// <param name="fullName">полное имя</param>
+        /// <param name="dateRegister">дата регистрации</param>
+        /// <param name="status">статус</param>
         public UserDetailResponse(Guid id, string email, string fullName, DateTime dateRegister, EnumUserStatus status)
         {
             Id = id;
@@ -33,13 +33,14 @@ namespace TestUsers.Services.Models.Users
             Status = status;
         }
         /// <summary>
-        /// 
+        /// идентифик
         /// </summary>
 
         public Guid Id { get; set; }
- public  string Email { get; set; }//имейл
+        public string Email { get; set; }//имейл
   public string FullName { get; set; } // полное имя
   public DateTime DateRegister { get; set; } // дата регистрации
   public EnumUserStatus Status { get; set; } // статус пользователя
+        public override string ToString() { return $"{Id}\t{Email}\t{FullName}\t{DateRegister}\t{Status}"; }
     }
 }

@@ -5,33 +5,35 @@ using TestUsers.Data.Enums;
 namespace TestUsers.Data.Models
 {
     /// <summary>
-    /// 
+    /// пользователь
     /// </summary>
     public class User
     {
         /// <summary>
-        /// 
+        /// идентиф
         /// </summary>
         public Guid Id { get; set; }
         /// <summary>
-        /// 
+        /// имейл
         /// </summary>
         public string Email { get; set; } = string.Empty;
         /// <summary>
-        /// 
+        /// полное имя
         /// </summary>
         public string FullName { get; set; } = string.Empty;
         /// <summary>
-        /// 
+        /// хэш пароля
         /// </summary>
         public string PasswordHash { get; set; } = string.Empty;
         /// <summary>
-        /// 
+        /// дата регистрации
         /// </summary>
         public DateTime DateRegister { get; set; }
         /// <summary>
-        /// 
+        /// статус пользователя
         /// </summary>
         public EnumUserStatus Status { get; set; }
+        public List<UserContact> Contacts { get; set; }
+       public  List<UserLanguage> UserLanguages { get; set; }
     }
 }

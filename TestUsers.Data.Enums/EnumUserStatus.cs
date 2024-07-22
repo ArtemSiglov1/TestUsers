@@ -1,7 +1,7 @@
 ﻿namespace TestUsers.Data.Enums
 {
     /// <summary>
-    /// 
+    /// статусы пользователей
     /// </summary>
     public enum EnumUserStatus
     {

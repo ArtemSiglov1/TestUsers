@@ -8,20 +8,20 @@ using TestUsers.Data.Enums;
 namespace TestUsers.Services.Models.Users
 {
     /// <summary>
-    /// 
+    /// лист пользователей вопрос
     /// </summary>
     public class UsersListRequest
     {
         /// <summary>
-        /// 
+        /// конструктор по умолчанию 
         /// </summary>
         public UsersListRequest() { }
         /// <summary>
-        /// 
+        /// с параметрами
         /// </summary>
-        /// <param name="search"></param>
-        /// <param name="status"></param>
-        /// <param name="page"></param>
+        /// <param name="search">поиск</param>
+        /// <param name="status">статус</param>
+        /// <param name="page">страница</param>
         public UsersListRequest(string search, EnumUserStatus? status, PageRequest page)
         {
             Search = search;

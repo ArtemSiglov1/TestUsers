@@ -7,27 +7,27 @@ using System.Threading.Tasks;
 namespace TestUsers.Services.Models
 {
     /// <summary>
-    /// 
+    /// базовый ответ
     /// </summary>
     public class BaseResponse
     {
         /// <summary>
-        /// 
+        /// успешно
         /// </summary>
        public bool IsSuccess { get; set; }
   /// <summary>
-  /// 
+  /// соо об ошибке
   /// </summary>
         public string ErrorMessage { get; set; }
         /// <summary>
-        /// 
+        /// конструктор по умолчанию
         /// </summary>
         public BaseResponse() { }
         /// <summary>
-        /// 
+        /// с параметрами
         /// </summary>
-        /// <param name="isSuccess"></param>
-        /// <param name="errorMessage"></param>
+        /// <param name="isSuccess">успех</param>
+        /// <param name="errorMessage">соо об ошибке </param>
         public BaseResponse(bool isSuccess, string errorMessage)
         {
             IsSuccess = isSuccess;
