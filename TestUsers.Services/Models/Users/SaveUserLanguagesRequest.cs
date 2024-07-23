@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace TestUsers.Services.Models.Users
 {
+    /// <summary>
+    /// сохранение языков пользователя 
+    /// </summary>
     public class SaveUserLanguagesRequest
     {
-        public int UserId{ get; set; }
-    public List<SaveUserLanguageItem> Items { get; set; }
+        /// <summary>
+        /// идентиф пользов
+        /// </summary>
+        public Guid UserId{ get; set; }
+        /// <summary>
+        /// список языков знаемых пользователем
+        /// </summary>
+        public List<SaveUserLanguageItem> Items { get; set; }
 
     }
 }

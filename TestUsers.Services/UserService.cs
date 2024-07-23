@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 using TestUsers.Data;
 using TestUsers.Data.Models;
 using TestUsers.Services.Models;
@@ -58,14 +56,10 @@ namespace TestUsers.Services
 
             var pageResponse = new PageResponse
             {
-
                 Count = count,
                 Page = request.Page.Page,
                 PageSize = request.Page.PageSize
             };
-
-            //var items =  query.Skip((request.Page.Page - 1) * request.Page.PageSize).Take(request.Page.PageSize);
-
             return new UsersListResponse()
             {
                 Items = users,
@@ -105,7 +99,6 @@ namespace TestUsers.Services
         /// </summary>
         /// <param name="request">запрос</param>
         /// <returns>базовый ответ о том что операция выполнена</returns>
-
         public async Task<BaseResponse> Create(UserCreateRequest request)
         {
             await using var db = new DataContext(_dbContextOptions);
@@ -113,62 +106,50 @@ namespace TestUsers.Services
             if (string.IsNullOrWhiteSpace(request.FullName))
                 return new BaseResponse { IsSuccess = true, ErrorMessage = "Вы не указали ФИО" };
             if (string.IsNullOrWhiteSpace(request.Email))
-            {
                 return new BaseResponse { IsSuccess = true, ErrorMessage = "Вы не указали имайл" };
-            }
             request.Email = request.Email.Trim().ToLower();
-            if (await query.Where(u => u.Email == request.Email).AnyAsync() == true)
-            {             return new BaseResponse { IsSuccess = true, ErrorMessage = "Имайл уже занят" };
-            }
-                        var newUser = new User
-                        {
+            if (await query.Where(u => u.Email == request.Email).AnyAsync())
+                return new BaseResponse { IsSuccess = true, ErrorMessage = "Имайл уже занят" };
 
-                            FullName = request.FullName,
+            var newUser = new User
+            {
 
-                            Email = request.Email,
-                        };
-                        await db.Users.AddAsync(newUser);
+                FullName = request.FullName,
 
-                        await db.SaveChangesAsync();
-                        return new BaseResponse { IsSuccess = true, ErrorMessage = "" };
+                Email = request.Email,
+            };
+            await db.Users.AddAsync(newUser);
+
+            await db.SaveChangesAsync();
+            return new BaseResponse { IsSuccess = true, ErrorMessage = "" };
         }
 
-            /// <summary>
-            /// метод для редактирования
-            /// </summary>
-            /// <param name="request">запрос</param>
-            /// <returns>базовый ответ о том что операция выполнена</returns>
+        /// <summary>
+        /// метод для редактирования
+        /// </summary>
+        /// <param name="request">запрос</param>
+        /// <returns>базовый ответ о том что операция выполнена</returns>
 
-            public async Task<BaseResponse> Edit(UserEditRequest request)
+        public async Task<BaseResponse> Edit(UserEditRequest request)
         {
             using (DataContext db = new DataContext())
             {
                 // получаем первый объект
                 var user = await db.Users.FirstOrDefaultAsync(x => x.Id == request.Id);
+                if (user == null)
+                    return new BaseResponse { IsSuccess = true, ErrorMessage = "Пользователь не найден" };
                 var query = db.Users.AsQueryable();
                 if (string.IsNullOrWhiteSpace(request.FullName))
                     return new BaseResponse { IsSuccess = true, ErrorMessage = "Вы не указали ФИО" };
-
-                if (user == null)
-                {
-                    return new BaseResponse { IsSuccess = true, ErrorMessage = "Пользователь не найден" };
-                }
                 if (string.IsNullOrWhiteSpace(request.Email))
-                {
                     return new BaseResponse { IsSuccess = true, ErrorMessage = "Вы не указали имэйл" };
-                }
-                if (await query.Where(u => u.Email == request.Email &&u.Id != request.Id).AnyAsync()
-                   ) { 
+                if (await query.Where(u => u.Email == request.Email && u.Id != request.Id).AnyAsync())
                     return new BaseResponse { IsSuccess = true, ErrorMessage = "Имэйл уже занят" };
-                }
                 user.FullName = request.FullName;
-                    user.Id = request.Id;
-                   
-                        user.Email = request.Email;
-                    
-                    //обновляем объект
-                    //db.Users.Update(user);
-                    await db.SaveChangesAsync();
+                user.Id = request.Id;
+                user.Email = request.Email;
+
+                await db.SaveChangesAsync();
 
                 return new BaseResponse { IsSuccess = true, ErrorMessage = "Пользователь изменен" };
 
@@ -183,15 +164,10 @@ namespace TestUsers.Services
         /// метод для удаления пользователя из бд
         /// </summary>
         /// <param name="userId">идентиф пользователя</param>
-        public async void Delete(Guid userId)
+        public async Task Delete(Guid userId)
         {
-            using (
-        DataContext db = new DataContext()
-            )
-            {
-                // обновляем только объекты, у которых имя Bob
-                await db.Users.Where(u => u.Id == userId).ExecuteDeleteAsync();
-            }
+            await using var db = new DataContext();
+            await db.Users.Where(u => u.Id == userId).ExecuteDeleteAsync();
         }
     }
 }

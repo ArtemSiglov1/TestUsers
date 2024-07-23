@@ -33,7 +33,13 @@ namespace TestUsers.Data.Models
         /// статус пользователя
         /// </summary>
         public EnumUserStatus Status { get; set; }
+        /// <summary>
+        /// контакты пользователя
+        /// </summary>
         public List<UserContact> Contacts { get; set; }
-       public  List<UserLanguage> UserLanguages { get; set; }
+       /// <summary>
+       /// языки пользователя
+       /// </summary>
+        public  List<UserLanguage> UserLanguages { get; set; }
     }
 }
