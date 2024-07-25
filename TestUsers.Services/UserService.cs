@@ -151,7 +151,7 @@ namespace TestUsers.Services
 
                 await db.SaveChangesAsync();
 
-                return new BaseResponse { IsSuccess = true, ErrorMessage = "Пользователь изменен" };
+                return new BaseResponse { IsSuccess = true };
 
             }
         }

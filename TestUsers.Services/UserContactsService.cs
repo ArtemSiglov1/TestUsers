@@ -12,7 +12,7 @@ using TestUsers.Services.Models.Users;
 
 namespace TestUsers.Services
 {
-    internal class UserContactsService
+    public class UserContactsService
     {
         private DbContextOptions<DataContext> _dbContextOptions;
         /// <summary>
@@ -53,28 +53,18 @@ namespace TestUsers.Services
             await using var db = new DataContext(_dbContextOptions);
 
             var dbData = await db.UsersContact.ToListAsync(); 
-           var contactItem=  dbData.Select(x => new UserContactItem() { Id=x.Id,Name=x.Name,Value=x.Value}).ToList();
+           var contactItem=  dbData.Where(c => c.Id == request.UserId).Select(x => new UserContactItem() { Id=x.Id,Name=x.Name,Value=x.Value}).ToList();
 
             foreach (var contact in request.Contacts)
             {
-                    var contacts = dbData.FirstOrDefault(c => c.Id == contact.Id);
-
-                if (contacts!=null)
-                { 
-                contacts.Name= contact.Name;
-                    contacts.Value= contact.Value;
-                }
-                    var newContact = new UserContact
-                    {
-                        Name = contact.Name,
-                        Value = contact.Value
-                    };
-                    await db.UsersContact.AddAsync(newContact); 
+               var contactRequest = request.Contacts.Select(c => c.Id).ToList();
+                var contactToRemove = dbData.Where(x => !contactRequest.Contains(x.Id)).ToList();
+                db.UsersContact.RemoveRange(contactToRemove);
+                var contacts=contactItem?.Select(x=>new UserContact { Name=contact.Name, Value=contact.Value }).FirstOrDefault();
+                    await db.UsersContact.AddAsync(contacts); 
                
             }
-            var contactRequest = request.Contacts.Select(c => c.Id).ToList();
-            var contactToRemove = dbData.Where(x => !contactRequest.Contains(x.Id)).ToList();
-            db.UsersContact.RemoveRange(contactToRemove);
+           
 
             await db.SaveChangesAsync(); 
         }
