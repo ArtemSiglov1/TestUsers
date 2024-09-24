@@ -17,10 +17,10 @@ namespace TestUsers.Services.Models
         /// <param name="page">страница</param>
         /// <param name="pageSize">размер страницы</param>
         /// <param name="count">количество страниц</param>
-        public PageResponse(int page, int pageSize, int count)
+        public PageResponse(PageRequest page, int count)
         {
-            Page = page;
-            PageSize = pageSize;
+            Page = page.Page;
+            PageSize = page.PageSize;
             Count = count;
             
         }

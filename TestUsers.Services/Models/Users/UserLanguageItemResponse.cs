@@ -18,11 +18,11 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// код
         /// </summary>
-       public string Code { get; set; }  //ru, en
+        public string Code { get; set; } = string.Empty;  //ru, en
         /// <summary>
         /// название
         /// </summary>
-       public string Name { get; set; }//Russian, English
+       public string Name { get; set; } = string.Empty;//Russian, English
         /// <summary>
         /// дата конца обучения
         /// </summary>

@@ -12,9 +12,6 @@ namespace TestUsers.Services.Models.Users
     /// </summary>
     public class UsersListItem
     {
-        /// <summary>
-        /// конструктор по умолчанию
-        /// </summary>
         public UsersListItem() { }
         /// <summary>
         /// с параметрами
@@ -39,11 +36,11 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// 
         /// </summary>
-        public string Email { get; set; }
+        public string Email { get; set; }=string.Empty;
         /// <summary>
         /// 
         /// </summary>
-        public string FullName { get; set; }
+        public string FullName { get; set; }= string.Empty;
         /// <summary>
         /// 
         /// </summary>

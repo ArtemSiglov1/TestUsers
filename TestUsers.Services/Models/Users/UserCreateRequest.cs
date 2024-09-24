@@ -28,10 +28,10 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// имейл
         /// </summary>
-        public string Email { get; set; } //имейл
+        public string Email { get; set; } = string.Empty; //имейл
         /// <summary>
         /// полное имя
         /// </summary>
-        public string FullName { get; set; } // полное имя
+        public string FullName { get; set; } = string.Empty; // полное имя
     }
 }

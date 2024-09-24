@@ -36,10 +36,12 @@ namespace TestUsers.Data.Models
         /// <summary>
         /// контакты пользователя
         /// </summary>
-        public List<UserContact> Contacts { get; set; }
+        public List<UserContact>?Contacts { get; set; }
        /// <summary>
        /// языки пользователя
        /// </summary>
-        public  List<UserLanguage> UserLanguages { get; set; }
+        public  List<UserLanguage>? UserLanguages { get; set; }
+        public List<News> News { get; set; }= new List<News>();
+
     }
 }

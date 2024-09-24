@@ -11,11 +11,7 @@ namespace TestUsers.Services.Models.Users
     /// </summary>
     public class UserEditRequest
     {
-        /// <summary>
-        /// конструктор по умолчанию 
-        /// </summary>
         public UserEditRequest() { }
-        /// <summary>
         /// конструктор с параметрами
         /// </summary>
         /// <param name="id">идентиф</param>
@@ -33,11 +29,11 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// полное имя
         /// </summary>
-  public string FullName { get; set; }
+  public string FullName { get; set; } = string.Empty;
         /// <summary>
         /// имейл
         /// </summary>
 
-        public string Email { get; set; }
+        public string Email { get; set; }= string.Empty;
     }
 }

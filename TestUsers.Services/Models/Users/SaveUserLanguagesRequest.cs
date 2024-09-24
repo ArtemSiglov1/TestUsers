@@ -18,7 +18,7 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// список языков знаемых пользователем
         /// </summary>
-        public List<SaveUserLanguageItem> Items { get; set; }
+        public List<SaveUserLanguageItem> Items { get; set; }= new List<SaveUserLanguageItem>();
 
     }
 }

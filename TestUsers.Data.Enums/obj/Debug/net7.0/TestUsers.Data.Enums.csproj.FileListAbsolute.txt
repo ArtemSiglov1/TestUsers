@@ -1,7 +1,6 @@
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\bin\Debug\net7.0\TestUsers.Data.Enums.deps.json
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\bin\Debug\net7.0\TestUsers.Data.Enums.dll
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\bin\Debug\net7.0\TestUsers.Data.Enums.pdb
-C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\TestUsers.Data.Enums.csproj.AssemblyReference.cache
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\TestUsers.Data.Enums.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\TestUsers.Data.Enums.AssemblyInfoInputs.cache
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\TestUsers.Data.Enums.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\Tes
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\refint\TestUsers.Data.Enums.dll
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\TestUsers.Data.Enums.pdb
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\ref\TestUsers.Data.Enums.dll
+C:\Users\siglov\source\repos\TestUsers\TestUsers.Data.Enums\obj\Debug\net7.0\TestUsers.Data.Enums.sourcelink.json

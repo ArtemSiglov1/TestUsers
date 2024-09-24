@@ -12,10 +12,7 @@ namespace TestUsers.Services.Models.Users
     /// </summary>
     public class UserDetailResponse
     {
-        /// <summary>
-        /// конструктор по умолчанию 
-        /// </summary>
-            public UserDetailResponse() { }
+        public UserDetailResponse() { }
         /// <summary>
         /// с параметрами
         /// </summary>
@@ -37,8 +34,8 @@ namespace TestUsers.Services.Models.Users
         /// </summary>
 
         public Guid Id { get; set; }
-        public string Email { get; set; }//имейл
-  public string FullName { get; set; } // полное имя
+        public string Email { get; set; } = string.Empty;//имейл
+  public string FullName { get; set; } = string.Empty; // полное имя
   public DateTime DateRegister { get; set; } // дата регистрации
   public EnumUserStatus Status { get; set; } // статус пользователя
         public override string ToString() { return $"{Id}\t{Email}\t{FullName}\t{DateRegister}\t{Status}"; }

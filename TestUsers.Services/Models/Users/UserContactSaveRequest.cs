@@ -9,7 +9,7 @@ namespace TestUsers.Services.Models.Users
     /// <summary>
     /// сщхранение контактов пользователя
     /// </summary>
-    internal class UserContactSaveRequest
+    public class UserContactSaveRequest
     {
         /// <summary>
         /// конструктор
@@ -34,6 +34,6 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// список контактов
         /// </summary>
-        public List<UserContactItem>? Contacts { get;set; }
+        public List<UserContactItem> Contacts { get; set; } = new List<UserContactItem>();
     }
 }

@@ -12,9 +12,6 @@ namespace TestUsers.Services.Models.Users
     /// </summary>
     public class UsersListRequest
     {
-        /// <summary>
-        /// конструктор по умолчанию 
-        /// </summary>
         public UsersListRequest() { }
         /// <summary>
         /// с параметрами
@@ -31,7 +28,7 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// 
         /// </summary>
-        public string Search { get; set; }
+        public string Search { get; set; } = string.Empty;
         /// <summary>
         /// 
         /// </summary>
@@ -39,7 +36,7 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// 
         /// </summary>
-       public  PageRequest Page { get; set; }
+       public  PageRequest Page { get; set; }=new PageRequest();
       
     }
 }

@@ -12,8 +12,9 @@ C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestU
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestUsers.Services.AssemblyInfoInputs.cache
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestUsers.Services.AssemblyInfo.cs
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestUsers.Services.csproj.CoreCompileInputs.cache
-C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestUsers.Services.csproj.CopyComplete
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestUsers.Services.dll
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\refint\TestUsers.Services.dll
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestUsers.Services.pdb
 C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\ref\TestUsers.Services.dll
+C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestUsers.Services.sourcelink.json
+C:\Users\siglov\source\repos\TestUsers\TestUsers.Services\obj\Debug\net7.0\TestUser.0E57BB1F.Up2Date

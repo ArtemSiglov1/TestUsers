@@ -18,19 +18,22 @@ namespace TestUsers.Services.Models
   /// <summary>
   /// соо об ошибке
   /// </summary>
-        public string ErrorMessage { get; set; }
+        public string? ErrorMessage { get; set; }
         /// <summary>
         /// конструктор по умолчанию
         /// </summary>
         public BaseResponse() { }
+        public BaseResponse(bool isSuccess)
+        {
+            IsSuccess = isSuccess;
+        }
         /// <summary>
         /// с параметрами
         /// </summary>
         /// <param name="isSuccess">успех</param>
         /// <param name="errorMessage">соо об ошибке </param>
-        public BaseResponse(bool isSuccess, string errorMessage)
+        public BaseResponse(bool isSuccess, string errorMessage):this(isSuccess) 
         {
-            IsSuccess = isSuccess;
             ErrorMessage = errorMessage;
         }
     }

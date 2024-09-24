@@ -30,7 +30,6 @@ C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUsers.
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUsers.App.AssemblyInfoInputs.cache
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUsers.App.AssemblyInfo.cs
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUsers.App.csproj.CoreCompileInputs.cache
-C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUsers.App.csproj.CopyComplete
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUsers.App.dll
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\refint\TestUsers.App.dll
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUsers.App.pdb
@@ -48,3 +47,5 @@ C:\Users\siglov\source\repos\TestUsers\TestUsers.App\bin\Debug\net7.0\Microsoft.
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\siglov\source\repos\TestUsers\TestUsers.App\bin\Debug\net7.0\appsettings.json
+C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUsers.App.sourcelink.json
+C:\Users\siglov\source\repos\TestUsers\TestUsers.App\obj\Debug\net7.0\TestUser.409E967D.Up2Date

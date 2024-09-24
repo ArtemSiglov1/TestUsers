@@ -1,5 +1,4 @@
 C:\Users\siglov\source\repos\TestUsers\TestUsers\obj\Debug\TestUsers.csproj.AssemblyReference.cache
-C:\Users\siglov\source\repos\TestUsers\TestUsers\obj\Debug\TestUsers.csproj.SuggestedBindingRedirects.cache
 C:\Users\siglov\source\repos\TestUsers\TestUsers\obj\Debug\TestUsers.csproj.CoreCompileInputs.cache
 C:\Users\siglov\source\repos\TestUsers\TestUsers\bin\Debug\TestUsers.exe.config
 C:\Users\siglov\source\repos\TestUsers\TestUsers\bin\Debug\TestUsers.exe

@@ -9,11 +9,8 @@ namespace TestUsers.Services.Models.Users
     /// <summary>
     /// контакты пользователя добавить
     /// </summary>
-    internal class UserContactItem
+    public class UserContactItem
     {
-        /// <summary>
-        /// конструктор
-        /// </summary>
         public UserContactItem() { }
         /// <summary>
         /// с параметрами
@@ -21,7 +18,7 @@ namespace TestUsers.Services.Models.Users
         /// <param name="id">идентиф</param>
         /// <param name="name">название</param>
         /// <param name="value">значение</param>
-        public UserContactItem(Guid? id, string name, string value)
+        public UserContactItem(Guid id, string name, string value)
         {
             Id = id;
             Name = name;
@@ -31,15 +28,15 @@ namespace TestUsers.Services.Models.Users
         /// идентиф
         /// </summary>
         
-        public  Guid? Id { get; set; }
+        public  Guid Id { get; set; }
       
         /// <summary>
         /// название
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
         /// <summary>
         /// значчение 
         /// </summary>
-      public string Value { get; set; }
+      public string Value { get; set; } = string.Empty;
     }
 }

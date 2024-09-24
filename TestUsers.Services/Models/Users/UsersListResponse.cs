@@ -14,14 +14,11 @@ namespace TestUsers.Services.Models.Users
         /// <summary>
         /// 
         /// </summary>
-        public List<UsersListItem> Items { get; set; }
+        public List<UsersListItem> Items { get; set; }= new List<UsersListItem>();
         /// <summary>
         /// 
         /// </summary>
-        public PageResponse Page { get; set; }
-        /// <summary>
-        /// конструктор по умолчанию
-        /// </summary>
+        public PageResponse Page { get; set; } = new PageResponse();
         public UsersListResponse() { }
         /// <summary>
         /// с параметрами

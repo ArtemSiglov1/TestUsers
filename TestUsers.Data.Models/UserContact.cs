@@ -18,15 +18,15 @@ namespace TestUsers.Data.Models
         /// <summary>
         /// имя контакта
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
         /// <summary>
         /// номер или юз
         /// </summary>
-        public string Value { get; set; }
+        public string Value { get; set; }= string.Empty;
         /// <summary>
         /// пользователь кому присвоить 
         /// </summary>
-       public  User User { get; set; }
+       public  User? User { get; set; }
         /// <summary>
         /// идентиф пользователя
         /// </summary>

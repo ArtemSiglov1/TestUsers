@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\siglov\\source\\repos\\TestUsers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{313CA04E-C520-42B5-8B76-2E5C6C6F70A5}|TestUsers.Services\\TestUsers.Services.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.services\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313CA04E-C520-42B5-8B76-2E5C6C6F70A5}|TestUsers.Services\\TestUsers.Services.csproj|solutionrelative:testusers.services\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.tests\\tests\\usercontactservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|solutionrelative:testusers.tests\\tests\\usercontactservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.tests\\tests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|solutionrelative:testusers.tests\\tests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.tests\\tests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|solutionrelative:testusers.tests\\tests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.tests\\tests\\userlanguageservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|solutionrelative:testusers.tests\\tests\\userlanguageservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.tests\\tests\\productcategoryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|solutionrelative:testusers.tests\\tests\\productcategoryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.tests\\tests\\productcategoryparametersservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|solutionrelative:testusers.tests\\tests\\productcategoryparametersservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313CA04E-C520-42B5-8B76-2E5C6C6F70A5}|TestUsers.Services\\TestUsers.Services.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.services\\services\\userlanguageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313CA04E-C520-42B5-8B76-2E5C6C6F70A5}|TestUsers.Services\\TestUsers.Services.csproj|solutionrelative:testusers.services\\services\\userlanguageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313CA04E-C520-42B5-8B76-2E5C6C6F70A5}|TestUsers.Services\\TestUsers.Services.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.services\\services\\usercontactsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313CA04E-C520-42B5-8B76-2E5C6C6F70A5}|TestUsers.Services\\TestUsers.Services.csproj|solutionrelative:testusers.services\\services\\usercontactsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313CA04E-C520-42B5-8B76-2E5C6C6F70A5}|TestUsers.Services\\TestUsers.Services.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.services\\services\\productcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313CA04E-C520-42B5-8B76-2E5C6C6F70A5}|TestUsers.Services\\TestUsers.Services.csproj|solutionrelative:testusers.services\\services\\productcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|c:\\users\\siglov\\source\\repos\\testusers\\testusers.tests\\initdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB098A10-EBEB-4267-83A3-6F03334101D7}|TestUsers.Tests\\TestUsers.Tests.csproj|solutionrelative:testusers.tests\\initdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 235,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "TestUsers.Services\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\Services\\ProductService.cs",
+              "RelativeToolTip": "TestUsers.Services\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T14:34:10.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "TestUsers.Tests\\Tests\\ProductServiceTests.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\ProductServiceTests.cs",
+              "RelativeToolTip": "TestUsers.Tests\\Tests\\ProductServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:30:07.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserContactServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\UserContactServiceTests.cs",
+              "RelativeDocumentMoniker": "TestUsers.Tests\\Tests\\UserContactServiceTests.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\UserContactServiceTests.cs",
+              "RelativeToolTip": "TestUsers.Tests\\Tests\\UserContactServiceTests.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAADgv1QAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T06:45:19.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLanguageServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\UserLanguageServiceTests.cs",
+              "RelativeDocumentMoniker": "TestUsers.Tests\\Tests\\UserLanguageServiceTests.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\UserLanguageServiceTests.cs",
+              "RelativeToolTip": "TestUsers.Tests\\Tests\\UserLanguageServiceTests.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAADgv2EAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T08:32:05.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "TestUsers.Tests\\Tests\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\UserServiceTests.cs",
+              "RelativeToolTip": "TestUsers.Tests\\Tests\\UserServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T06:59:05.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductCategoryServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\ProductCategoryServiceTests.cs",
+              "RelativeDocumentMoniker": "TestUsers.Tests\\Tests\\ProductCategoryServiceTests.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\ProductCategoryServiceTests.cs",
+              "RelativeToolTip": "TestUsers.Tests\\Tests\\ProductCategoryServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:30:20.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductCategoryParametersServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\ProductCategoryParametersServiceTests.cs",
+              "RelativeDocumentMoniker": "TestUsers.Tests\\Tests\\ProductCategoryParametersServiceTests.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\Tests\\ProductCategoryParametersServiceTests.cs",
+              "RelativeToolTip": "TestUsers.Tests\\Tests\\ProductCategoryParametersServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T08:18:33.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLanguageService.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\Services\\UserLanguageService.cs",
+              "RelativeDocumentMoniker": "TestUsers.Services\\Services\\UserLanguageService.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\Services\\UserLanguageService.cs",
+              "RelativeToolTip": "TestUsers.Services\\Services\\UserLanguageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T08:42:53.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserContactsService.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\Services\\UserContactsService.cs",
+              "RelativeDocumentMoniker": "TestUsers.Services\\Services\\UserContactsService.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\Services\\UserContactsService.cs",
+              "RelativeToolTip": "TestUsers.Services\\Services\\UserContactsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T07:43:49.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\Services\\ProductCategoryService.cs",
+              "RelativeDocumentMoniker": "TestUsers.Services\\Services\\ProductCategoryService.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Services\\Services\\ProductCategoryService.cs",
+              "RelativeToolTip": "TestUsers.Services\\Services\\ProductCategoryService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADgvxYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:31:17.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InitData.cs",
+              "DocumentMoniker": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\InitData.cs",
+              "RelativeDocumentMoniker": "TestUsers.Tests\\InitData.cs",
+              "ToolTip": "C:\\Users\\siglov\\source\\repos\\TestUsers\\TestUsers.Tests\\InitData.cs",
+              "RelativeToolTip": "TestUsers.Tests\\InitData.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAcwHIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T10:52:15.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 253,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

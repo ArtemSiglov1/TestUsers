@@ -1,12 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TestUsers.Data;
-using TestUsers.Data.Models;
-using TestUsers.Services;
-using TestUsers.Services.Models;
 using TestUsers.Services.Models.Users;
+using TestUsers.Services.Services;
 
 Console.WriteLine("Hello, World!");
 

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TestUsers.Data.Enums/1.0.0": {
+        "runtime": {
+          "TestUsers.Data.Enums.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestUsers.Data.Enums/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
